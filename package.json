@@ -5,12 +5,12 @@
   "type": "module",
   "main": "./dist/locally-unique-id-generator.js",
   "module": "./dist/locally-unique-id-generator.esm.js",
-  "svelte": "./dist/locally-unique-id-generator.esm.js",
   "types": "./dist/locally-unique-id-generator.d.ts",
   "exports": {
     ".": {
       "require": "./dist/locally-unique-id-generator.js",
-      "import": "./dist/locally-unique-id-generator.esm.js"
+      "import": "./dist/locally-unique-id-generator.esm.js",
+      "svelte": "./dist/locally-unique-id-generator.esm.js",
     },
     "./package.json": "./package.json"
   },
